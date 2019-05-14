@@ -22,7 +22,7 @@ public class ProducerServiceTest {
     RestTemplateBuilder testRestTemplate;
 
     @Test
-    public void runTest(){
+    public void testResponseFromStub(){
         ProducerService producerService = new ProducerService(testRestTemplate);
 
         String actual = producerService.getGreetingFromProducer();
