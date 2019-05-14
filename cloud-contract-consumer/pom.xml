@@ -8,7 +8,7 @@
 		<version>2.1.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>nl.recurrent</groupId>
+	<groupId>nl.sogeti</groupId>
 	<artifactId>cloud-contract-consumer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>cloud-contract-consumer</name>
@@ -23,6 +23,11 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			<!--			<version>2.1.4.RELEASE</version>-->
 		</dependency>
 
 		<dependency>

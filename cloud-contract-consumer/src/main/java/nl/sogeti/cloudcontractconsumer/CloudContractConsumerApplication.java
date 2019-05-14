@@ -1,13 +1,13 @@
-package nl.recurrent.cloudcontractproducer;
+package nl.sogeti.cloudcontractconsumer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CloudContractProducerApplication {
+public class CloudContractConsumerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CloudContractProducerApplication.class, args);
+		SpringApplication.run(CloudContractConsumerApplication.class, args);
 	}
 
 }
